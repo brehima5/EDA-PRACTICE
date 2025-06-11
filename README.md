@@ -4,7 +4,9 @@
 
 This project explores air quality data from 6 important cities using **Exploratory Data Analysis (EDA)** techniques. It is designed as a hands-on practice exercise to develop data intuition, clean real-world datasets, explore relationships, and communicate findings effectively in Github.
 
-The dataset contains pollutant concentrations (e.g., CO, NO₂, SO₂, PM2.5,CO2) and corresponding AQI (Air Quality Index) values measured across time and locations(Dubai, Cairo, Brazilia, London, New York, Sydney). The focus is not on modeling but on understanding and extracting **valuable insights** from the data.
+The dataset contains pollutant concentrations (e.g., CO, NO₂, SO₂, PM2.5,CO2) and corresponding AQI (Air Quality Index) values measured across time( hourly collected for year 2024 ) and locations(Dubai, Cairo, Brazilia, London, New York, Sydney). The focus is not on modeling but on understanding and extracting **valuable insights** from the data.
+
+*link source for the dataset: https://www.kaggle.com/datasets/youssefelebiary/air-quality-2024?resource=download
 
 ---
 
@@ -71,7 +73,7 @@ Outlier analysis uncovered **significant pollution spikes** that stand apart fro
 
    - Nearly **all extreme outliers** come from **Dubai**, indicating **severe pollution episodes**.
 
-   - Among these, the **majority occurred during the summer season**, suggesting a seasonal intensification of pollution in Dubai, possibly due to high temperatures amplifying pollutant concentrations or increased emissions.
+   - Among these, the **majority occurred during the summer season**, suggesting a seasonal intensification of pollution in Dubai, possibly due to high temperatures amplifying pollutant concentrations or increased emissions. (See histplot)
 
    - A **small cluster of 8 outliers** was also found in **Cairo**, all on **February 12, 2024, between 1 PM and 8 PM**. This isolated event may signal a **temporary environmental incident**.
 ---
@@ -86,6 +88,9 @@ To support the analysis, multiple visual tools were used:
 
 - **Line plots**: AQI and Pollutants over hours.
 <img width="1124" alt="Screenshot 2025-06-10 at 5 53 27 PM" src="https://github.com/user-attachments/assets/d5d568f1-706b-4fe7-943f-21208b248016" />
+
+- **Histograms**:Outliers distribution accross seasons.
+  <img width="582" alt="Screenshot 2025-06-11 at 9 29 02 AM" src="https://github.com/user-attachments/assets/9a4018da-adbc-4e4f-9957-aa2cfaf0c0ca" />
 
 - **Heatmaps**: Correlation between pollutants
 
