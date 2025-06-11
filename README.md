@@ -105,9 +105,3 @@ To support the analysis, multiple visual tools were used:
 - **Jupyter Notebook** / VSCode for development
 
 ---
-
-## 📂 File Structure
-/air-quality-eda \
-├── data/ # Contains raw data files \
-├── notebooks/ # Analysis and EDA notebooks \
-├── README.md # Project overview and insights
